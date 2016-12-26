@@ -12,6 +12,8 @@
 		790CFC901E11676D00E9BBFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790CFC8E1E11676D00E9BBFA /* Main.storyboard */; };
 		790CFC921E11676D00E9BBFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790CFC911E11676D00E9BBFA /* Assets.xcassets */; };
 		790CFC951E11676D00E9BBFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790CFC931E11676D00E9BBFA /* LaunchScreen.storyboard */; };
+		790CFCA11E1168A400E9BBFA /* wall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 790CFCA01E1168A400E9BBFA /* wall.jpg */; };
+		790CFCA41E116CC700E9BBFA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790CFCA31E116CC700E9BBFA /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		790CFC911E11676D00E9BBFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		790CFC941E11676D00E9BBFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		790CFC961E11676D00E9BBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		790CFCA01E1168A400E9BBFA /* wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall.jpg; sourceTree = "<group>"; };
+		790CFCA31E116CC700E9BBFA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				790CFCA41E116CC700E9BBFA /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				790CFC891E11676D00E9BBFA /* User Location (App) */,
 				790CFC881E11676D00E9BBFA /* Products */,
+				790CFCA21E116CC700E9BBFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +63,20 @@
 				790CFC8A1E11676D00E9BBFA /* AppDelegate.swift */,
 				790CFC8C1E11676D00E9BBFA /* ViewController.swift */,
 				790CFC8E1E11676D00E9BBFA /* Main.storyboard */,
+				790CFCA01E1168A400E9BBFA /* wall.jpg */,
 				790CFC911E11676D00E9BBFA /* Assets.xcassets */,
 				790CFC931E11676D00E9BBFA /* LaunchScreen.storyboard */,
 				790CFC961E11676D00E9BBFA /* Info.plist */,
 			);
 			path = "User Location (App)";
+			sourceTree = "<group>";
+		};
+		790CFCA21E116CC700E9BBFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				790CFCA31E116CC700E9BBFA /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +142,7 @@
 				790CFC951E11676D00E9BBFA /* LaunchScreen.storyboard in Resources */,
 				790CFC921E11676D00E9BBFA /* Assets.xcassets in Resources */,
 				790CFC901E11676D00E9BBFA /* Main.storyboard in Resources */,
+				790CFCA11E1168A400E9BBFA /* wall.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +316,7 @@
 				790CFC9B1E11676D00E9BBFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
